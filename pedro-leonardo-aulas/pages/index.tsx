@@ -1,5 +1,9 @@
 //import Head from "next/head";
 
+import { Heading } from "@chakra-ui/react"
+
 export default function Home() {
-  return <h1>Olá</h1>;
+  return (
+    <Heading size="2xl">Olá</Heading>
+  );
 }
