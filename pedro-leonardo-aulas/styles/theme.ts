@@ -19,10 +19,6 @@ const customTheme = extendTheme({
     sm: '5px',
     md: '8px',
   },
-  fontSizes: {
-    ...theme.fontSizes,
-    '6xl': '54px',
-  },
   colors: {
     ...theme.colors,
     gray: {
